@@ -5,6 +5,12 @@ nome = input("Digite seu nome: ")
 ano_conheceu_linkedin = input("Digite o ano que conheceu o LinkedIn: ")
 ano_atual = input("Digite o ano atual: ")
 cursos_realizados = input("Digite os cursos realizados no LinkedIn Learning separados por virgula em ordem cronológica: ")
+#ou
+estudante2 = {}
+estudante2['nome'] = input("Digite seu nome: ")
+estudante2['ano_conheceu_linkedin'] = int(input("Digite o ano que conheceu o LinkedIn: "))
+estudante2['ano_atual'] = int(input("Digite o ano atual: "))
+estudante2['cursos_realizados'] = list(input("Digite os cursos realizados no LinkedIn Learning separados por virgula em ordem cronológica: ").split(','))
 
 # 2. Armazene esses dados em um dicionário
 estudante = {'nome': nome,
